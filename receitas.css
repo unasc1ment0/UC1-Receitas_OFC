@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #eaeaea;
+    background: #ffe4d2;
     overflow: hidden;
 }
 
@@ -83,6 +83,7 @@ body{
     font-weight: bold;
     opacity: 0;
     animation: animate 1s ease-in-out 1 forwards;
+    -webkit-text-stroke: 1px black;
 }
 
 .content .desc{
@@ -90,6 +91,7 @@ body{
     margin-bottom: 20px;
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
+    
 }
 
 .content button{
